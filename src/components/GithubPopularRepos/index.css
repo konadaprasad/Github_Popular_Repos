@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+.heading {
+  font-family: 'Lobster';
+  font-size: 35px;
+  color: #0f172a;
+  font-weight: bold;
+}
+.un-order {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.list-item {
+  border: solid 1px #0284c7;
+  color: #0284c7;
+  background-color: transparent;
+  height: 30px;
+  width: 90px;
+  font-size: 18px;
+  border-radius: 15px;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px;
+}
+.list-cont {
+  background-color: transparent;
+  border: none;
+  margin: 20px;
+}
+.para {
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: 500;
+}
+.repos-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8ff;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 20px;
+  width: 300px;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+.head {
+  font-size: 22px;
+  color: #e73959;
+  font-weight: bold;
+}
+.cont1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.star-img {
+  height: 15px;
+  width: 15px;
+  margin-top: 17px;
+  margin-right: 15px;
+}
+.para1 {
+  color: #1e293b;
+  font-size: 16px;
+}
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img1 {
+  height: 300px;
+  width: 300px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+}
